@@ -1,7 +1,6 @@
 import Image from "next/image";
 import ParticlesBackground from "./ParticlesBackground";
-import { FaSquareXTwitter } from "react-icons/fa6";
-import { FaGithub, FaDev, FaYoutube } from "react-icons/fa";
+import { FaGithub, FaDev, FaYoutube,FaLinkedinIn } from "react-icons/fa";
 import Link from "next/link";
 
 const Hero = () => {
@@ -27,11 +26,16 @@ const Hero = () => {
             </Link>
           </span>
 
-          <div className="flex gap-5 text-yellow-500 text-2xl max-md:justify-center">
-            <FaSquareXTwitter />
-            <FaGithub />
-            <FaDev />
-            <FaYoutube />
+          <div className="flex gap-5 text-yellow-500 text-4xl max-md:justify-center">
+          <a href="https://github.com/bariulmunshi" target="_blank" rel="noopener noreferrer">
+         <FaGithub />
+        </a>
+        <a href="https://www.linkedin.com/in/md-bariul-munshi/" target="_blank" rel="noopener noreferrer">
+        <FaLinkedinIn />
+       </a>
+        <a href="https://youtube.com/@mdbariulmunshi" target="_blank" rel="noopener noreferrer">
+        <FaYoutube />
+           </a>
           </div>
         </div>
 
