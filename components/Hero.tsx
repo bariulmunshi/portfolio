@@ -11,10 +11,10 @@ const Hero = () => {
       <div className="relative flex justify-between max-w-[1400px] mx-auto items-center h-full w-[91%] max-md:flex-col">
         <div className="flex flex-col justify-center text-white flex-1 max-md:order-2 max-md:text-center">
           <h2 className="font-bold md:text-4xl text-3xl mb-2">
-            Hi I'm Antonio a Full Stack
+            Hi I'm Bariul a Full Stack
           </h2>
-          <h1 className="xl:text-9xl lg:text-8xl md:text-7xl text-6xl text-yellow-500 font-bold mb-5">
-            Developer
+          <h1 className="xl:text-6xl lg:text-8xl md:text-7xl text-6xl text-yellow-500 font-bold mb-5">
+           Web Developer
           </h1>
           <span className="md:w-3/4 mb-5">
             I collaborate with various projects and
@@ -37,7 +37,7 @@ const Hero = () => {
 
         <div className="flex flex-1 justify-end max-md:order-1 max-md:mb-3">
           <Image
-            src={"/bariul.png"}
+            src={"/bariuldev.png"}
             width={450}
             height={450}
             role="img"
