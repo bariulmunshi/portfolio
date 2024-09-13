@@ -8,7 +8,7 @@ const ProjectCard = ({
   name,
   image,
   url,
-}: {
+}: { 
   name: string;
   image: string;
   url: string;

@@ -25,12 +25,12 @@ const Hero = () => {
           </span>
 
           <div className="flex gap-5 text-yellow-500 text-4xl max-md:justify-center">
-          <a href="https://github.com/bariulmunshi" target="_blank" rel="noopener noreferrer">
-         <FaGithub />
-        </a>
         <a href="https://www.linkedin.com/in/md-bariul-munshi/" target="_blank" rel="noopener noreferrer">
         <FaLinkedinIn />
        </a>
+          <a href="https://github.com/bariulmunshi" target="_blank" rel="noopener noreferrer">
+         <FaGithub />
+        </a>
         <a href="https://youtube.com/@mdbariulmunshi" target="_blank" rel="noopener noreferrer">
         <FaYoutube />
            </a>
