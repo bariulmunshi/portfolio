@@ -16,9 +16,7 @@ const Hero = () => {
            Web Developer
           </h1>
           <span className="md:w-3/4 mb-5">
-            I collaborate with various projects and
-            entrepreneurs, providing expertise in full-stack
-            engineering. Need assistance with your project?{" "}
+          I am Bariul, a graduate with a strong foundation in Data Science and versatile Web Development expertise, specializing in the MERN stack and WordPress. Proficient in WordPress development, including Gutenberg Editor, Elementor Pro, other page builders, and theme customization. Skilled in SEO, including on-page optimization, backlink creation, local SEO, and technical SEO, with experience in writing SEO-friendly articles. {" "}
             <Link href={"#contact"}>
               <span className="text-yellow-500 underline text-sm">
                 Contact Me &#8594;
