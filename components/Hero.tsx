@@ -37,7 +37,7 @@ const Hero = () => {
 
         <div className="flex flex-1 justify-end max-md:order-1 max-md:mb-3">
           <Image
-            src={"/header-image.png"}
+            src={"/face.jpg"}
             width={450}
             height={450}
             role="img"
